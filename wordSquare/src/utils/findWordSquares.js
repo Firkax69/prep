@@ -1,4 +1,4 @@
-import buildPrefixMap from "./buildPrefixMap";
+import buildPrefixMap from "./buildPrefixMap.js";
 
 const findWordSquares = (words) => {
     if (words.length === 0) return [];

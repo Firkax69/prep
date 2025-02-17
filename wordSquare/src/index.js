@@ -1,5 +1,5 @@
-import isWordSquare from "./utils/isWordSquare";
-import findWordSquares from "./utils/findWordSquares";
+import isWordSquare from "./utils/isWordSquare.js";
+import findWordSquares from "./utils/findWordSquares.js";
 
 const testWords = ["AREA", "BALL", "DEAR", "LADY", "LEAD", "YARD"];
 
@@ -11,5 +11,5 @@ console.log(isWordSquare(['BALL', 'AREA', 'LEAD', 'LADY']));
 console.log("\nFinding all word squares from the given words:");
 console.log(findWordSquares(testWords));
 // Expected output: [["BALL", "AREA", "LEAD", "LADY"]
-// or
+// ,
 // ["LADY", "AREA", "DEAR", "YARD"]]
