@@ -39,6 +39,9 @@ i   j   words[i][j]         words[j][i]         Match?
 **Step 2: Prefix Map function**
 
 This function prepares a prefix map, which is a dictionary that helps us quickly find words that start with a given prefix.
+
+key-value pair where the key is the prefix, and the value is an empty array (to store the words starting with that prefix).
+
 For example, if we have ["AREA", "BALL", "DEAR", "LADY", "LEAD", "YARD"], it builds:
 
 A -> [AREA]
