@@ -58,5 +58,8 @@ BALL -> [BALL]
 
 This reduces the number of words we check, making the algorithm faster.
 
+**Step 3: Find words squares from a given list of words (using backtracking and prefix matching)**
+
+
 
 
