@@ -1,3 +1,3 @@
-// import { decompressString } from "./parser.js";
+import { decompressString } from "./parser.js";
 
-// console.log(decompressString("3[abc]4[tali]Ihor"))
+console.log(decompressString("3[abc]4[tali]Ihor"))
