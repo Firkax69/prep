@@ -10,6 +10,7 @@ lis-dp.js contains solution using Dynamic Programming Approach
     The result will be the maximum value in the dp array.
 
 
+More clear to understand:
 
 lis-binry-search.js solution using Dinamic approach + binary search
 
