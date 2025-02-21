@@ -60,3 +60,29 @@ helper(11)
   │
   ├── helper(6) (using 5)
         ├── helper(1) (using 5)
+
+
+
+
+***To run test:***
+
+1. npm install --save-dev jest
+installs Jest as a development dependency (--save-dev) in your project. This means it will be listed under "devDependencies" in your package.json file.
+
+2. Configure ES Modules (import/export and specify type:module in package.json).
+
+3. npm install --save-dev jest babel-jest @babel/preset-env
+Install jest and babel-jest
+
+4. Create a Babel Configuration File
+Since Jest needs Babel to transform ES modules, create a .babelrc file in your project root
+
+.babelrc
+
+{
+  "presets": ["@babel/preset-env"]
+}
+
+5. npm test and it should run the tests.
+
+
