@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "coinchangerecursive",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
